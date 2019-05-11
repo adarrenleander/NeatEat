@@ -1,0 +1,23 @@
+#recipe-flex-container {
+    display: flex;
+}
+
+.recipe-flex {
+    padding: 0 15px;
+}
+
+#type-flex-container {
+    display: flex;
+}
+
+.type-flex {
+    padding: 0 15px;
+}
+
+#cuisine-flex-container {
+    display: flex;
+}
+
+.cuisine-flex {
+    padding: 0 15px;
+}
