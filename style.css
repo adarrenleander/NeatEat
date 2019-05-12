@@ -259,6 +259,96 @@ body {
 }
 /***** *****/
 
+/***** Header CSS except index.html*****/
+#header-container{
+    background-color: #f07b3f;
+    overflow: hidden;
+    height: 75px;
+}
+
+#header-content{
+    width: 100%; 
+}
+
+#header-left{
+    width: 85%;
+    height: 75px;
+    float: left;
+}
+
+#header-left #logo{
+    float: left;
+    width: 15%;
+    height: inherit;
+}
+
+#header-left #logo h1{
+    line-height: 100%;
+}
+
+#header-left #search-bar{
+    float: left;
+    margin-bottom: 14px;
+    margin-top: 15px;
+    width: 50%;
+}
+
+#header-left #search-bar input{
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+
+#header-left #search-bar img{
+    position: absolute;
+    top: 30px;
+    right:45%;
+}
+
+#header-left #search-by-food{
+    width:35%;
+    float:left;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+#header-left #search-by-food h2{
+    display: inline-block;
+    line-height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    float:left;
+}
+
+#header-left #button-by-food{
+    float: left;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+#header-right{
+    width: 15%;
+    height: 75px;
+    float: left;
+}
+
+#header-right #upgrade-button{
+    width: 50%;
+    float: left;
+    line-height: 75px;
+}
+
+#header-right #user-icon{
+    width: 50%;
+    float: left;
+    line-height: 40px;
+}
+
+#header-right #user-icon img{
+    margin: 10px;
+}
+/***** *****/
+
 /***** RECIPES BY TYPE PAGE *****/
 #recipes-flex-row {
     display: flex;
