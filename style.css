@@ -1,8 +1,14 @@
-#recipe-flex-container {
+body {
+    margin: 0;
+    width: 100%;
+}
+
+/***** INDEX PAGE *****/
+#featured-recipe-flex-container {
     display: flex;
 }
 
-.recipe-flex {
+.featured-recipe-flex {
     padding: 0 15px;
 }
 
@@ -21,3 +27,28 @@
 .cuisine-flex {
     padding: 0 15px;
 }
+/***** *****/
+
+/***** RECIPES BY TYPE PAGE *****/
+#recipes-flex-row {
+    display: flex;
+}
+
+.recipes-flex {
+    flex: 33%;
+}
+/***** *****/
+
+/****** PREMIUM MEMBERSHIP *****/
+#testimony-flex-container {
+    display: flex;
+}
+
+.testimony-flex {
+    margin: 0 15px;
+}
+
+.testimony-flex img {
+    border-radius: 50%;
+}
+/***** *****/
