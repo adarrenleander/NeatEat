@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NeatEat | Your one stop solution for all your recipe needs</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="index">
@@ -14,37 +13,44 @@
             <div id="header-content">
                 <div id="header-user">
                     <a href="premium-account.html"><button>UPGRADE</button></a>
-                    <img src="https://placehold.it/50x50" alt="User Icon">
+                    <span>&nbsp;&nbsp;&nbsp;</span>
+                    <a href="premium-account.html"><img src="images/user-white.png" alt="User Icon"></a>
                 </div>
-                <div id="header-content">
-                    <img src="images/neateat-logo.png" alt="NeatEat Logo">
+                <div id="header-text">
+                    <a href="index.html"><img src="images/neateat-logo-2.png" alt="NeatEat Logo"></a>
                     <h3>Your one stop solution for all your recipe needs</h3>
                     <input type="text" placeholder="Search Recipes..">
                     <p>OR</p>
-                    <button>Search by Ingredients</button>
+                    <a href="search-ingredients.html"><button>Search by Ingredients</button></a>
                 </div>
             </div>
         </div>
         <div id="featured-recipes-container">
-            <h2>Featured Recipes</h2>
-            <!-- just use flexbox for this -->
-            <!-- use image overlay text on each image -->
-            <div id="featured-recipe-flex-container">
-                <div class="featured-recipe-flex">
-                    <img src="https://placehold.it/150x150" alt="food-1">
-                    <div class="overlay">Food 1</div>
-                </div>
-                <div class="featured-recipe-flex">
-                    <img src="https://placehold.it/150x150" alt="food-2">
-                    <div class="overlay">Food 2</div>
-                </div>
-                <div class="featured-recipe-flex">
-                   <img src="https://placehold.it/150x150" alt="food-3">
-                    <div class="overlay">Food 3</div>
-                </div>
-                <div class="featured-recipe-flex">
-                    <img src="https://placehold.it/150x150" alt="food-4">
-                    <div class="overlay">Food 4</div>
+            <div id="featured-recipes-content">
+                <h2>Featured Recipes</h2>
+                <!-- just use flexbox for this -->
+                <!-- use image overlay text on each image -->
+                <div id="featured-recipe-flex-container">
+                    <div class="featured-recipe-flex">
+                        <a href="recipe-details.html">
+                            <div id="featured-recipe-1"><p>Japanese Chicken Curry Rice</p></div>
+                        </a>
+                    </div>
+                    <div class="featured-recipe-flex">
+                        <a href="recipe-details.html">
+                            <div id="featured-recipe-2"><p>Fettuccine Alfredo</p></div>
+                        </a>
+                    </div>
+                    <div class="featured-recipe-flex">
+                        <a href="recipe-details.html">
+                            <div id="featured-recipe-3"><p>Salted Egg Chicken</p></div>
+                        </a>
+                    </div>
+                    <div class="featured-recipe-flex">
+                        <a href="recipe-details.html">
+                            <div id="featured-recipe-4"><p>Caesar Salad</p></div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -52,39 +58,48 @@
             <h2>Browse</h2>
             <div id="by-type-container">
                 <h3>Find recipes by food type</h3>
-                <!-- again, just use flex box -->
                 <div id="type-flex-container">
                     <div class="type-flex">
-                        <img src="https://placehold.it/100x100" alt="Fried">
-                        <p>Fried</p>
+                        <a href="recipes-type.html">
+                            <img src="images/types/stirfried-square.jpg" alt="Stir-fried">
+                            <p>Stir-fried</p>
+                        </a>
                     </div>
                     <div class="type-flex">
-                        <img src="https://placehold.it/100x100" alt="Baked">
-                        <p>Baked</p>
+                        <a href="recipes-type.html">
+                            <img src="images/types/baked-square.jpg" alt="Baked">
+                            <p>Baked</p>
+                        </a>
                     </div>
                     <div class="type-flex">
-                        <img src="https://placehold.it/100x100" alt="Steamed">
-                        <p>Steamed</p>
+                        <a href="recipes-type.html">
+                            <img src="images/types/steamed-square.jpg" alt="Steamed">
+                            <p>Steamed</p>
+                        </a>
                     </div>
                     <div class="type-flex">
-                        <img src="https://placehold.it/100x100" alt="Grilled">
-                        <p>Grilled</p>
+                        <a href="recipes-type.html">
+                            <img src="images/types/grilled-square.jpg" alt="Grilled">
+                            <p>Grilled</p>
+                        </a>
                     </div>
                     <div class="type-flex">
-                        <img src="https://placehold.it/100x100" alt="No Fire">
-                        <p>No Fire</p>
+                        <a href="recipes-type.html">
+                            <img src="images/types/deepfried-square.jpg" alt="Deep-fried">
+                            <p>Deep-fried</p>
+                        </a>
                     </div>
                     <div class="type-flex">
-                        <img src="https://placehold.it/100x100" alt="Microwaveable">
-                        <p>Microwaveable</p>
+                        <a href="recipes-type.html">
+                            <img src="images/types/soup-square.jpg" alt="Soup">
+                            <p>Soup</p>
+                        </a>
                     </div>
                     <div class="type-flex">
-                        <img src="https://placehold.it/100x100" alt="Soup">
-                        <p>Soup</p>
-                    </div>
-                    <div class="type-flex">
-                        <img src="https://placehold.it/100x100" alt="Dessert">
-                        <p>Dessert</p>
+                        <a href="recipes-type.html">
+                            <img src="images/types/dessert-square.jpg" alt="Dessert">
+                            <p>Dessert</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -113,10 +128,6 @@
                         <p>Western</p>
                     </div>
                     <div class="cuisine-flex">
-                        <img src="https://placehold.it/100x100" alt="Mexican">
-                        <p>Mexican</p>
-                    </div>
-                    <div class="cuisine-flex">
                         <img src="https://placehold.it/100x100" alt="Halal">
                         <p>Halal</p>
                     </div>
@@ -135,9 +146,9 @@
                     <p><span>Address: </span>Binus University Alam Sutera, Jl. Jalur Sutera Barat Kav. 21, Alam Sutera, Tangerang</p>
                     <p><span>Phone: </span>+6221 632 8328</p>
                     <p><span>Email: </span>contact@neateat.com</p>
-                    <a href="https://instagram.com/neateat" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a href="https://twitter.com/neateat" target="_blank"><i class="fa fa-twitter-square"></i></a>
-                    <a href="https://facebook.com/neateat" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                    <a href="https://instagram.com/neateat" target="_blank"><img src="images/instagram.png"></a>
+                    <a href="https://twitter.com/neateat" target="_blank"><img src="images/twitter.png"></a>
+                    <a href="https://facebook.com/neateat" target="_blank"><img src="images/facebook.png"></a>
                 </div>
                 <div id="contact-form">
                     <form>
