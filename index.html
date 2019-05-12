@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NeatEat | Your one stop solution for all your recipe needs</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
     <div id="index">
-        <div id="header-container">
-            <div id="header-content">
-                <div id="header-user">
+        <div class="header-container">
+            <div class="header-content">
+                <div class="header-user">
                     <a href="premium-account.html"><button>UPGRADE</button></a>
                     <span>&nbsp;&nbsp;&nbsp;</span>
-                    <a href="premium-account.html"><img src="images/user-white.png" alt="User Icon"></a>
+                    <a href="premium-account.html"><img src="../images/user-white.png" alt="User Icon"></a>
                 </div>
-                <div id="header-text">
-                    <a href="index.html"><img src="images/neateat-logo-2.png" alt="NeatEat Logo"></a>
+                <div class="header-text">
+                    <a href="index.html"><img src="../images/neateat-logo-4.png" alt="NeatEat Logo"></a>
                     <h3>Your one stop solution for all your recipe needs</h3>
                     <input type="text" placeholder="Search Recipes..">
                     <p>OR</p>
@@ -25,77 +25,75 @@
                 </div>
             </div>
         </div>
-        <div id="featured-recipes-container">
-            <div id="featured-recipes-content">
+        <div class="featured-recipes-container">
+            <div class="featured-recipes-content">
                 <h2>Featured Recipes</h2>
-                <!-- just use flexbox for this -->
-                <!-- use image overlay text on each image -->
-                <div id="featured-recipe-flex-container">
+                <div class="featured-recipe-flex-container">
                     <div class="featured-recipe-flex">
                         <a href="recipe-details.html">
-                            <div id="featured-recipe-1"><p>Japanese Chicken Curry Rice</p></div>
+                            <div class="featured-recipe-1"><p>Japanese Chicken Curry Rice</p></div>
                         </a>
                     </div>
                     <div class="featured-recipe-flex">
                         <a href="recipe-details.html">
-                            <div id="featured-recipe-2"><p>Fettuccine Alfredo</p></div>
+                            <div class="featured-recipe-2"><p>Fettuccine Alfredo</p></div>
                         </a>
                     </div>
                     <div class="featured-recipe-flex">
                         <a href="recipe-details.html">
-                            <div id="featured-recipe-3"><p>Salted Egg Chicken</p></div>
+                            <div class="featured-recipe-3"><p>Salted Egg Chicken</p></div>
                         </a>
                     </div>
                     <div class="featured-recipe-flex">
                         <a href="recipe-details.html">
-                            <div id="featured-recipe-4"><p>Caesar Salad</p></div>
+                            <div class="featured-recipe-4"><p>Caesar Salad</p></div>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="browse-container">
+        <div class="browse-container">
             <h2>Browse</h2>
-            <div id="by-type-container">
+            <div class="list-container">
                 <h3>Find recipes by food type</h3>
-                <div id="type-flex-container">
-                    <div class="type-flex">
+                <div class="list-flex-container">
+                    <div class="list-flex">
                         <a href="recipes-type.html">
                             <img src="images/types/stirfried-square.jpg" alt="Stir-fried">
                             <p>Stir-fried</p>
                         </a>
                     </div>
-                    <div class="type-flex">
+                    <div class="list-flex">
                         <a href="recipes-type.html">
                             <img src="images/types/baked-square.jpg" alt="Baked">
                             <p>Baked</p>
                         </a>
                     </div>
-                    <div class="type-flex">
+                    <div class="list-flex">
                         <a href="recipes-type.html">
                             <img src="images/types/steamed-square.jpg" alt="Steamed">
                             <p>Steamed</p>
                         </a>
                     </div>
-                    <div class="type-flex">
+                    <div class="list-flex">
                         <a href="recipes-type.html">
                             <img src="images/types/grilled-square.jpg" alt="Grilled">
                             <p>Grilled</p>
                         </a>
                     </div>
-                    <div class="type-flex">
+                    <div class="list-flex">
                         <a href="recipes-type.html">
                             <img src="images/types/deepfried-square.jpg" alt="Deep-fried">
                             <p>Deep-fried</p>
                         </a>
                     </div>
-                    <div class="type-flex">
+                    <div class="list-flex">
                         <a href="recipes-type.html">
                             <img src="images/types/soup-square.jpg" alt="Soup">
                             <p>Soup</p>
                         </a>
                     </div>
-                    <div class="type-flex">
+                    <div class="list-flex">
                         <a href="recipes-type.html">
                             <img src="images/types/dessert-square.jpg" alt="Dessert">
                             <p>Dessert</p>
@@ -103,54 +101,67 @@
                     </div>
                 </div>
             </div>
-            <div id="by-cuisine-container">
+            <div class="list-container list-container-bottom">
                 <h3>Find recipes by cuisine</h3>
-                <!-- again, just use flex box -->
-                <div id="cuisine-flex-container">
-                    <div class="cuisine-flex">
-                        <img src="https://placehold.it/100x100" alt="Italian">
-                        <p>Italian</p>
+                <div class="list-flex-container">
+                    <div class="list-flex">
+                        <a href="recipes-type.html">
+                            <img src="images/cuisine/italian-square.jpg" alt="Italian">
+                            <p>Italian</p>
+                        </a>
                     </div>
-                    <div class="cuisine-flex">
-                        <img src="https://placehold.it/100x100" alt="Japanese">
-                        <p>Japanese</p>
+                    <div class="list-flex">
+                        <a href="recipes-type.html">
+                            <img src="images/cuisine/japanese-square.jpg" alt="Japanese">
+                            <p>Japanese</p>
+                        </a>                        
                     </div>
-                    <div class="cuisine-flex">
-                        <img src="https://placehold.it/100x100" alt="Chinese">
-                        <p>Chinese</p>
+                    <div class="list-flex">
+                        <a href="recipes-type.html">
+                            <img src="images/cuisine/chinese-square.jpg" alt="Chinese">
+                            <p>Chinese</p>
+                        </a>
                     </div>
-                    <div class="cuisine-flex">
-                        <img src="https://placehold.it/100x100" alt="Indonesian">
-                        <p>Indonesian</p>
+                    <div class="list-flex">
+                        <a href="recipes-type.html">
+                            <img src="images/cuisine/indonesian-square.jpg" alt="Indonesian">
+                            <p>Indonesian</p>
+                        </a>
                     </div>
-                    <div class="cuisine-flex">
-                        <img src="https://placehold.it/100x100" alt="Western">
-                        <p>Western</p>
+                    <div class="list-flex">
+                        <a href="recipes-type.html">
+                            <img src="images/cuisine/western-square.jpg" alt="Western">
+                            <p>Western</p>
+                        </a>
                     </div>
-                    <div class="cuisine-flex">
-                        <img src="https://placehold.it/100x100" alt="Halal">
-                        <p>Halal</p>
+                    <div class="list-flex">
+                        <a href="recipes-type.html">
+                            <img src="images/cuisine/halal-square.jpg" alt="Halal">
+                            <p>Halal</p>
+                        </a>
                     </div>
-                    <div class="cuisine-flex">
-                        <img src="https://placehold.it/100x100" alt="Korean">
-                        <p>Korean</p>
+                    <div class="list-flex">
+                        <a href="recipes-type.html">
+                            <img src="images/cuisine/korean-square.jpg" alt="Korean">
+                            <p>Korean</p>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <div id="footer-container">
-            <div id="contact-container">
-                <div id="contact-details">
+            <div class="contact-container">
+                <div class="contact-details">
                     <h2>Contact Us</h2>
                     <p>If you have further inquiries or suggestions, feel free to fill in this form or contact us directly through the means below.</p>
-                    <p><span>Address: </span>Binus University Alam Sutera, Jl. Jalur Sutera Barat Kav. 21, Alam Sutera, Tangerang</p>
-                    <p><span>Phone: </span>+6221 632 8328</p>
-                    <p><span>Email: </span>contact@neateat.com</p>
+                    <p><span>Address</span>&nbsp;&nbsp;Binus University Alam Sutera, Jl. Jalur Sutera Barat Kav. 21, Alam Sutera, Tangerang</p>
+                    <p><span>Phone</span>&nbsp;&nbsp;+6221 632 8328</p>
+                    <p><span>Email</span>&nbsp;&nbsp;contact@neateat.com</p>
                     <a href="https://instagram.com/neateat" target="_blank"><img src="images/instagram.png"></a>
                     <a href="https://twitter.com/neateat" target="_blank"><img src="images/twitter.png"></a>
                     <a href="https://facebook.com/neateat" target="_blank"><img src="images/facebook.png"></a>
                 </div>
-                <div id="contact-form">
+                <div class="contact-form">
                     <form>
                         <input type="text" placeholder="Name">
                         <br>
@@ -162,7 +173,7 @@
                     </form>
                 </div>
             </div>
-            <div id="copyright">
+            <div class="copyright">
                 <h6>Copyright &copy; All Rights Reserved 2018 | NeatEat</h6>
             </div>
         </div>

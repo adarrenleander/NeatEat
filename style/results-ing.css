@@ -1,0 +1,7 @@
+#recipes-flex-row {
+    display: flex;
+}
+
+.recipes-flex {
+    flex: 33%;
+}

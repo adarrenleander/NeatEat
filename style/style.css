@@ -3,12 +3,13 @@ colour palette
 orange f07b3f
 dark orange d65a31
 grey eff3f6
+dark grey 393e46
 */
 
 /***** GENERAL *****/
 @font-face {
     font-family: 'Kano regular';
-    src: url(fonts/Kano.otf);
+    src: url(../fonts/Kano.otf);
 }
 
 * {
@@ -20,26 +21,27 @@ body {
     width: 100%;
 }
 /***** *****/
+
 /***** INDEX PAGE *****/
-#index #header-container {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/food-header-1.jpg");
+#index .header-container {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/food-header-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-#index #header-content {
-    padding-bottom: 50px;
+#index .header-content {
+    padding-bottom: 55px;
 }
 
-#index #header-user {
+#index .header-user {
     padding: 20px;
     display: block;
     text-align: right;
     margin-bottom: 18px;
 }
 
-#index #header-user button {
+#index .header-user button {
     background-color: #f07b3f;
     color: #ffffff;
     font-weight: bold;
@@ -48,46 +50,47 @@ body {
     border: none;
     cursor: pointer;
     letter-spacing: 3px;
+    transition: 0.3s;
 }
 
-#index #header-user button:hover {
+#index .header-user button:hover {
     background-color: #d65a31;
 }
 
-#index #header-user img {
+#index .header-user img {
     vertical-align: middle;
     height: 50px;
 }
 
-#index #header-text {
+#index .header-text {
     color: #ffffff;
     text-align: center;
 }
 
-#index #header-text img {
+#index .header-text img {
     height: 250px;
 }
 
-#index #header-text h3 {
+#index .header-text h3 {
     font-weight: normal;
     font-size: 30px;
     margin: 35px 0;
 }
 
-#index #header-text input[type=text] {
+#index .header-text input[type=text] {
     font-size: 20px;
     padding: 10px;
-    width: 277px;
+    width: 270px;
     transition: 0.3s;
     letter-spacing: 2px;
     border: none;
 }
 
-#index #header-text input[type=text]:focus {
+#index .header-text input[type=text]:focus {
     width: 450px;
 }
 
-#index #header-text button {
+#index .header-text button {
     background-color: #f07b3f;
     color: #ffffff;
     font-size: 16px;
@@ -95,29 +98,30 @@ body {
     border: none;
     cursor: pointer;
     letter-spacing: 2px;
+    transition: 0.3s;
 }
 
-#index #header-text button:hover {
+#index .header-text button:hover {
     background-color: #d65a31;
 }
 
-#index #featured-recipes-container {
+#index .featured-recipes-container {
     background-color: #eff3f6;
 }
 
-#index #featured-recipes-content {
+#index .featured-recipes-content {
     margin: 0 auto;
     width: 80%;
     padding: 40px 0 60px 0;
 }
 
-#index #featured-recipes-content h2 {
+#index .featured-recipes-content h2 {
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
 }
 
-#index #featured-recipe-flex-container {
+#index .featured-recipe-flex-container {
     display: flex;
 }
 
@@ -125,64 +129,64 @@ body {
     flex: 25%;
 }
 
-#index .featured-recipe-flex #featured-recipe-1 {
-    background-image: url(images/featured/japanese-chicken-curry-rice-square.jpg);
+#index .featured-recipe-flex .featured-recipe-1 {
+    background-image: url(../images/featured/japanese-chicken-curry-rice-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     width: 95%;
 }
 
-#index .featured-recipe-flex:hover #featured-recipe-1 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/featured/japanese-chicken-curry-rice-square.jpg);
+#index .featured-recipe-flex:hover .featured-recipe-1 {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/featured/japanese-chicken-curry-rice-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     width: 95%;
 }
 
-#index .featured-recipe-flex #featured-recipe-2 {
-    background-image: url(images/featured/fettuccine-alfredo.jpg);
+#index .featured-recipe-flex .featured-recipe-2 {
+    background-image: url(../images/featured/fettuccine-alfredo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     width: 95%;
 }
 
-#index .featured-recipe-flex:hover #featured-recipe-2 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/featured/fettuccine-alfredo.jpg);
+#index .featured-recipe-flex:hover .featured-recipe-2 {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/featured/fettuccine-alfredo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     width: 95%;
 }
 
-#index .featured-recipe-flex #featured-recipe-3 {
-    background-image: url(images/featured/salted-egg-chicken.jpg);
+#index .featured-recipe-flex .featured-recipe-3 {
+    background-image: url(../images/featured/salted-egg-chicken.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     width: 95%;
 }
 
-#index .featured-recipe-flex:hover #featured-recipe-3 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/featured/salted-egg-chicken.jpg);
+#index .featured-recipe-flex:hover .featured-recipe-3 {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/featured/salted-egg-chicken.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     width: 95%;
 }
 
-#index .featured-recipe-flex #featured-recipe-4 {
-    background-image: url(images/featured/caesar-salad-square.jpg);
+#index .featured-recipe-flex .featured-recipe-4 {
+    background-image: url(../images/featured/caesar-salad-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     width: 95%;
 }
 
-#index .featured-recipe-flex:hover #featured-recipe-4 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/featured/caesar-salad-square.jpg);
+#index .featured-recipe-flex:hover .featured-recipe-4 {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/featured/caesar-salad-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -206,60 +210,56 @@ body {
     opacity: 1;
 }
 
-#index #browse-container {
+#index .browse-container {
     padding: 40px;
 }
 
-#index #browse-container h2 {
+#index .browse-container h2 {
     text-align: center;
     font-size: 30px;
     margin: 0;
 }
 
-#index #by-type-container {
+#index .list-container {
     width: 90%;
     margin: 0 auto;
 }
 
-#index #by-type-container h3 {
+#index .list-container h3 {
     font-size: 23px;
     color: #f07b3f;
     margin: 25px 0 15x 0;
 }
 
-#index #type-flex-container {
+#index .list-flex-container {
     display: flex;
 }
 
-#index .type-flex {
+#index .list-flex {
     flex: 15%;
     text-align: center;
 }
 
-#index .type-flex img {
+#index .list-flex img {
     width: 95%;
 }
 
-#index .type-flex a {
+#index .list-flex a {
     text-decoration: none;
     color: #000000;
 }
 
-#index .type-flex p {
+#index .list-flex p {
     font-size: 20px;
     margin: 10px 0;
 }
 
-#index #cuisine-flex-container {
-    display: flex;
-}
-
-#index .cuisine-flex {
-    padding: 0 15px;
+#index .list-container-bottom {
+    padding-top: 30px;
 }
 /***** *****/
 
-/***** Header CSS except index.html*****/
+/***** GENERAL HEADER *****/
 #header-container{
     background-color: #f07b3f;
     overflow: hidden;
@@ -349,26 +349,99 @@ body {
 }
 /***** *****/
 
-/***** RECIPES BY TYPE PAGE *****/
-#recipes-flex-row {
-    display: flex;
+/***** GENERAL CONTACT *****/
+#footer-container {
+    background-color: #393e46;
+    color: #ffffff;
+    padding: 55px 0 0 0;
 }
 
-.recipes-flex {
-    flex: 33%;
+#footer-container .contact-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#footer-container .contact-container .contact-details, .contact-form {
+    flex: 50%;
+}
+
+#footer-container .contact-details {
+    margin-left: 80px;
+}
+
+#footer-container .contact-details h2 {
+    font-size: 38px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#footer-container .contact-details img {
+    height: 35px;
+}
+
+#footer-container .contact-details p {
+    font-size: 18px;
+}
+
+#footer-container .contact-details span {
+    color: #f07b3f;
+}
+
+#footer-container .contact-form {
+    padding: 0;
+    margin-left: 75px;
+}
+
+#footer-container .contact-form input[type=text], textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin: 7px auto;
+    border: 0;
+    width: 80%;
+}
+
+#footer-container .contact-form textarea {
+    font-size: 16px;
+    padding: 10px;
+    height: 200px;
+    resize: vertical;
+}
+
+#footer-container .contact-form input[type=submit] {
+    background-color: #f07b3f;
+    padding: 15px 70px;
+    border: 0;
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.4s;
+    letter-spacing: 3px;
+    margin-top: 8px;
+}
+
+#footer-container .contact-form input[type=submit]:hover {
+    background-color: #d65a31;
+}
+
+#footer-container .copyright {
+    background-color: #000000;
+    margin: 50px 0 0 0;
+}
+
+#footer-container .copyright h6 {
+    margin: 0;
+    padding: 18px;
+    font-weight: normal;
+    font-size: 15px;
 }
 /***** *****/
 
+/***** RECIPES BY TYPE PAGE *****/
+/***** *****/
+
 /****** PREMIUM MEMBERSHIP *****/
-#testimony-flex-container {
-    display: flex;
-}
-
-.testimony-flex {
-    margin: 0 15px;
-}
-
-.testimony-flex img {
-    border-radius: 50%;
-}
 /***** *****/
