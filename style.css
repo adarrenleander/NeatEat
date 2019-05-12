@@ -1,30 +1,76 @@
+@font-face {
+    font-family: 'Kano regular';
+    src: url(fonts/Kano.otf);
+}
+
+* {
+    font-family: 'Kano regular';
+}
+
 body {
     margin: 0;
     width: 100%;
 }
 
 /***** INDEX PAGE *****/
-#featured-recipe-flex-container {
+#index #header-container {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/food-header-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#index #header-user button {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#index #header-user {
+    padding: 20px;
+    display: block;
+    text-align: right;
+}
+
+#index #header-user img {
+    vertical-align: middle;
+}
+
+#index #header-content {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#index #header-content {
+    
+}
+
+
+
+#index #featured-recipe-flex-container {
     display: flex;
 }
 
-.featured-recipe-flex {
+#index .featured-recipe-flex {
     padding: 0 15px;
 }
 
-#type-flex-container {
+#index #type-flex-container {
     display: flex;
 }
 
-.type-flex {
+#index .type-flex {
     padding: 0 15px;
 }
 
-#cuisine-flex-container {
+#index #cuisine-flex-container {
     display: flex;
 }
 
-.cuisine-flex {
+#index .cuisine-flex {
     padding: 0 15px;
 }
 /***** *****/
