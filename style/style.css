@@ -78,7 +78,7 @@ body {
     border: 2px solid #ffffff;
     cursor: pointer;
     letter-spacing: 2px;
-    transition: 0.3s;
+    transition: 0.4s;
     background-color: #f07b3f;
     color: #ffffff;
     font-weight: bold;
@@ -103,7 +103,7 @@ body {
     border: 2px solid #ffffff;
     cursor: pointer;
     letter-spacing: 3px;
-    transition: 0.3s;
+    transition: 0.4s;
     margin: 15px 0;
 }
 
@@ -116,6 +116,97 @@ body {
     vertical-align: middle;
     height: 50px;
     margin-right: 20px;
+}
+/***** *****/
+
+/***** GENERAL FOOTER *****/
+.footer-container {
+    background-color: #393e46;
+    color: #ffffff;
+    padding: 55px 0 0 0;
+}
+
+.footer-container .contact-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-container .contact-container .contact-details, .contact-form {
+    flex: 50%;
+}
+
+.footer-container .contact-details {
+    margin-left: 80px;
+}
+
+.footer-container .contact-details h2 {
+    font-size: 38px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.footer-container .contact-details img {
+    height: 35px;
+}
+
+.footer-container .contact-details p {
+    font-size: 18px;
+}
+
+.footer-container .contact-details span {
+    color: #f07b3f;
+}
+
+.footer-container .contact-form {
+    padding: 0;
+    margin-left: 75px;
+}
+
+.footer-container .contact-form input[type=text], .footer-container .contact-form textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin: 7px auto;
+    border: 0;
+    width: 80%;
+}
+
+.footer-container .contact-form textarea {
+    font-size: 16px;
+    padding: 10px;
+    height: 200px;
+    resize: vertical;
+}
+
+.footer-container .contact-form input[type=submit] {
+    background-color: #393e46;
+    padding: 15px 70px;
+    border: 2px solid #ffffff;
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.4s;
+    letter-spacing: 3px;
+    margin-top: 8px;
+}
+
+.footer-container .contact-form input[type=submit]:hover {
+    background-color: #f07b3f;
+}
+
+.footer-container .copyright {
+    background-color: #000000;
+    margin: 50px 0 0 0;
+}
+
+.footer-container .copyright h6 {
+    margin: 0;
+    padding: 18px;
+    font-weight: normal;
+    font-size: 15px;
 }
 /***** *****/
 
@@ -147,7 +238,7 @@ body {
     border: none;
     cursor: pointer;
     letter-spacing: 3px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 #index .header-user button:hover {
@@ -191,11 +282,11 @@ body {
     background-color: #f07b3f;
     color: #ffffff;
     font-size: 16px;
-    padding: 15px 50px;
+    padding: 18px 50px;
     border: none;
     cursor: pointer;
     letter-spacing: 2px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 #index .header-text button:hover {
@@ -353,97 +444,6 @@ body {
 
 #index .list-container-bottom {
     padding-top: 30px;
-}
-/***** *****/
-
-/***** GENERAL FOOTER *****/
-#footer-container {
-    background-color: #393e46;
-    color: #ffffff;
-    padding: 55px 0 0 0;
-}
-
-#footer-container .contact-container {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-}
-
-#footer-container .contact-container .contact-details, .contact-form {
-    flex: 50%;
-}
-
-#footer-container .contact-details {
-    margin-left: 80px;
-}
-
-#footer-container .contact-details h2 {
-    font-size: 38px;
-    text-align: left;
-    letter-spacing: 1px;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-#footer-container .contact-details img {
-    height: 35px;
-}
-
-#footer-container .contact-details p {
-    font-size: 18px;
-}
-
-#footer-container .contact-details span {
-    color: #f07b3f;
-}
-
-#footer-container .contact-form {
-    padding: 0;
-    margin-left: 75px;
-}
-
-#footer-container .contact-form input[type=text], #footer-container .contact-form textarea {
-    font-size: 16px;
-    padding: 10px;
-    margin: 7px auto;
-    border: 0;
-    width: 80%;
-}
-
-#footer-container .contact-form textarea {
-    font-size: 16px;
-    padding: 10px;
-    height: 200px;
-    resize: vertical;
-}
-
-#footer-container .contact-form input[type=submit] {
-    background-color: #f07b3f;
-    padding: 15px 70px;
-    border: 0;
-    display: block;
-    cursor: pointer;
-    font-size: 20px;
-    color: #ffffff;
-    transition: 0.4s;
-    letter-spacing: 3px;
-    margin-top: 8px;
-}
-
-#footer-container .contact-form input[type=submit]:hover {
-    background-color: #d65a31;
-}
-
-#footer-container .copyright {
-    background-color: #000000;
-    margin: 50px 0 0 0;
-}
-
-#footer-container .copyright h6 {
-    margin: 0;
-    padding: 18px;
-    font-weight: normal;
-    font-size: 15px;
 }
 /***** *****/
 
