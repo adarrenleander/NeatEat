@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Kano regular';
+    src: url(fonts/Kano.otf);
+}
+
+* {
+    font-family: 'Kano regular';
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+/***** INDEX PAGE *****/
+#index #header-container {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/food-header-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#index #header-user button {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#index #header-user {
+    padding: 20px;
+    display: block;
+    text-align: right;
+}
+
+#index #header-user img {
+    vertical-align: middle;
+}
+
+#index #header-content {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#index #header-content {
+    
+}
+
+
+
+#index #featured-recipe-flex-container {
+    display: flex;
+}
+
+#index .featured-recipe-flex {
+    padding: 0 15px;
+}
+
+#index #type-flex-container {
+    display: flex;
+}
+
+#index .type-flex {
+    padding: 0 15px;
+}
+
+#index #cuisine-flex-container {
+    display: flex;
+}
+
+#index .cuisine-flex {
+    padding: 0 15px;
+}
+/***** *****/
+
+/***** RECIPES BY TYPE PAGE *****/
+#recipes-flex-row {
+    display: flex;
+}
+
+.recipes-flex {
+    flex: 33%;
+}
+/***** *****/
+
+/****** PREMIUM MEMBERSHIP *****/
+#testimony-flex-container {
+    display: flex;
+}
+
+.testimony-flex {
+    margin: 0 15px;
+}
+
+.testimony-flex img {
+    border-radius: 50%;
+}
+/***** *****/
+
+/****** Recipe & Results*****/
+#selected-items-container h3{
+    margin-left: 20px;
+}
+
+#selected-items-container ul{
+    margin-left: -20px;
+    list-style: none;
+}
+
+#selected-items-container ul li{
+    float: left;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 0 20px 0 20px;
+}
+
+hr { 
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border-color: black;
+}
+
+#recipes-results-container h2{
+    margin-left: 20px;
+}
+
+.recipes-flex-row {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipes-flex-row > .recipes-flex {
+    flex-grow: 1;
+    flex: 1 1 30%;
+    width: 33%;
+}
+
+.recipes-flex img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***** *****/
