@@ -7,13 +7,13 @@
     <title>NeatEat | Your one stop solution for all your recipe needs</title>
     <link rel="stylesheet" type="text/css" href="style/search-ing.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/logo/neateat-logo-ico.ico" type="image/x-icon">
 </head>
 <body>
     <div id="search-ingredients">
         <div class="general-header">
             <div class="header-left">
-                <a href="index.html"><img src="images/neateat-logo-4.png" alt="Neat Eat Logo" class="logo"></a>
+                <a href="index.html"><img src="images/logo/neateat-logo-final.png" alt="Neat Eat Logo" class="logo"></a>
                 <input type="text" placeholder="Search for Recipes..">
                 <a href="#"><img src="images/magnifier-tool.png" alt="Magnifier" class="search"></a>
                 <h2>OR</h2> 
@@ -25,24 +25,21 @@
                 <a href="premium-account.html" class="header-right-line"><img src="images/user-white.png" alt="User Icon"></a>
             </div>
         </div>
-        <div id="search-ingredients-container">
-            <div id="ingredients-input">
-                <h2>Search for Ingredients</h2>
-                <input type="text" placeholder="Enter your ingredients..">
-                <button>Enter</button>
-            </div>
-            <div id="ingredients-list">
-                <h2>Your Ingredients</h2>
-                <h3>List of selected items</h3>
-                <!-- the list of selected items are just ul with borders -->
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
-                    <li>Item 5</li>
-                </ul>
-                <button>SEARCH</button>
+        <div class="search-ingredients-container">
+            <div class="search-ingredients-content">
+                <div class="ingredients-input-container">
+                    <h1>Search for Ingredients</h1>
+                    <input type="text" placeholder="Enter your ingredients.." id="ingredient">
+                    <input type="submit" value="Enter" onclick="addData()">
+                </div>
+                <hr>
+                <div class="ingredients-list-container">
+                    <h1>Your Ingredients</h1>
+                    <h3>List of selected items</h3>
+                    <ul id="ingredients-list">
+                    </ul>
+                    <a href="results-ingredients.html"><button>SEARCH</button></a>
+                </div>
             </div>
         </div>
         <div class="footer-container">
@@ -75,4 +72,5 @@
         </div>
     </div>
 </body>
+<script src="js/javascript.js"></script>
 </html>

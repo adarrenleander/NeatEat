@@ -2,7 +2,7 @@
 colour palette
 orange f07b3f
 dark orange d65a31
-grey eff3f6
+light grey eff3f6
 dark grey 393e46
 */
 
@@ -14,6 +14,7 @@ dark grey 393e46
 
 * {
     font-family: 'Kano regular';
+    box-sizing: border-box;
 }
 
 body {
@@ -60,8 +61,8 @@ body {
 .general-header .header-left .search {
     height: 30px;
     position: absolute;
-    right: 62.5%;
-    margin: 25px 0;
+    right: 64%;
+    margin: 26px 0;
 }
 
 .general-header .header-left h2 {
@@ -268,7 +269,7 @@ body {
 #index .header-text input[type=text] {
     font-size: 20px;
     padding: 10px;
-    width: 270px;
+    width: 290px;
     transition: 0.3s;
     letter-spacing: 2px;
     border: none;
@@ -282,7 +283,7 @@ body {
     background-color: #f07b3f;
     color: #ffffff;
     font-size: 16px;
-    padding: 18px 50px;
+    padding: 15px 50px;
     border: none;
     cursor: pointer;
     letter-spacing: 2px;
