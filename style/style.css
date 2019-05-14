@@ -441,7 +441,7 @@ body {
 }
 /***** *****/
 
-/***** SEARCH BY INGREDIENTS *****/
+/***** SEARCH BY INGREDIENTS PAGE *****/
 #search-ingredients .search-ingredients-container {
     background-color: #ffffff;
 }
@@ -554,7 +554,7 @@ body {
 }
 /***** *****/
 
-/***** GENERAL 4x4 IMAGE CONTAINER *****/
+/***** GENERAL 4-a-row IMAGE CONTAINER *****/
 .recipes-flex-row {
     display: flex;
     margin-top: 45px;
@@ -833,5 +833,35 @@ body {
 }
 /***** *****/
 
-/****** PREMIUM MEMBERSHIP *****/
+/***** RECIPE DETAILS PAGE *****/
+#recipe-details .recipe-details-container {
+    background-color: #ffffff;
+}
+
+#recipe-details .recipe-details-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+#recipe-details .recipe-details-content h1 {
+    font-size: 35px;
+    margin: 0 0 25px 0;
+}
+
+#recipe-details .recipe-details-content img {
+    height: 300px;
+}
+
+#recipe-details .recipe-details-content h3 {
+    margin: 30px 0 5px 0;
+    font-size: 25px;
+}
+
+#recipe-details .recipe-details-content p {
+    margin: 0;
+}
+/***** *****/
+
+/****** PREMIUM MEMBERSHIP PAGE *****/
 /***** *****/
