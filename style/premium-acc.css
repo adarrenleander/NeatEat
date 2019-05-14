@@ -5,6 +5,7 @@
 #premium-account-content-header-container{
     text-align: center;
     padding: 40px 0px;
+    background-color: #eff3f6;
 }
 
 #premium-account-content-header{
@@ -33,6 +34,7 @@
 
 #premium-account-content-header h2{
     font-size: 5em;
+    font-weight: bold;
     margin-top: 65px;
     margin-bottom: 0px;
     padding: 0;
