@@ -58,11 +58,25 @@ body {
     height: 60px;
 }
 
-.general-header .header-left .search {
+.general-header .header-left .magnifier-container{
+    float: left;
+    background-color: white;
+    margin: 26px 0px;
     height: 30px;
-    position: absolute;
-    right: 70.5vw;
-    margin: 26px 0;
+    transform: scale(1.4);
+}
+
+.general-header .header-left .magnifier-container a{
+    margin:0;
+}
+
+.general-header .header-left .magnifier-container a .search {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    float: left;
+    transform: scale(0.7);
+    box-sizing: border-box;
 }
 
 .general-header .header-left h2 {
