@@ -21,6 +21,10 @@ body {
     margin: 0;
     width: 100%;
 }
+
+input, textarea, button {
+    outline: none;
+}
 /***** *****/
 
 /***** GENERAL HEADER *****/
@@ -58,33 +62,28 @@ body {
     height: 60px;
 }
 
-.general-header .header-left .magnifier-container{
+.general-header .header-left .search-container {
     float: left;
-    background-color: white;
-    margin: 26px 0px;
-    height: 30px;
-    transform: scale(1.4);
+    background-color: #ffffff;
+    margin: 20px 0px;
+    padding: 6px;
 }
 
-.general-header .header-left .magnifier-container a{
-    margin:0;
+.general-header .header-left .search-container a {
+    margin: 0;
 }
 
-.general-header .header-left .magnifier-container a .search {
+.general-header .header-left .search-container .search {
     height: 30px;
-    width: 30px;
-    padding: 0;
-    float: left;
-    transform: scale(0.7);
-    box-sizing: border-box;
 }
 
 .general-header .header-left h2 {
     color: #ffffff;
     font-weight: normal;
-    line-height: 80px;
+    line-height: 85px;
     margin: 0;
     margin-left: 20px;
+    font-size: 18px;
 }
 
 .general-header .header-left button {
@@ -110,15 +109,15 @@ body {
 }
 
 .general-header .header-right button {
-    background-color: #f07b3f;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 16   px;
     padding: 15px 20px;
     border: 2px solid #ffffff;
     cursor: pointer;
     letter-spacing: 3px;
     transition: 0.4s;
+    background-color: #f07b3f;
+    color: #ffffff;
+    font-weight: bold;
     margin: 15px 0;
 }
 
@@ -184,7 +183,7 @@ body {
     font-size: 16px;
     padding: 10px;
     margin: 7px auto;
-    border: 0;
+    border: none;
     width: 80%;
 }
 
