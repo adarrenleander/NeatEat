@@ -1,3 +1,51 @@
+#premium-account-container{
+
+}
+
+#premium-account-content-header-container{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+#premium-account-content-header{
+    margin: 0;
+}
+
+#premium-account-content-header{
+    overflow: hidden;
+    display: inline-block;
+}
+
+#premium-account-content-header #premium-account-logo{
+    width: 20em;
+    height: 20em;
+    float: left;
+}
+
+#premium-account-content-header h3{
+    font-size: 4em;
+    padding: 0;
+    margin: 120px 30px;
+    margin-bottom: 0px;
+    float: left;
+    display: inline-block;
+}
+
+#premium-account-content-header h2{
+    font-size: 5em;
+    margin-top: 65px;
+    margin-bottom: 0px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    float:left;
+}
+
+#premium-account-container hr{
+
+}
+
+/***** Testimonies Division Style *****/
 #testimony-flex-container {
     display: flex;
 }
@@ -9,3 +57,4 @@
 .testimony-flex img {
     border-radius: 50%;
 }
+/*****  *****/
