@@ -10,15 +10,11 @@
 
 #premium-account-content-header{
     margin: 0;
-}
-
-#premium-account-content-header{
     overflow: hidden;
     display: inline-block;
 }
 
 #premium-account-content-header #premium-account-logo{
-    width: 20em;
     height: 20em;
     float: left;
 }
@@ -43,9 +39,39 @@
     float:left;
 }
 
-#premium-account-container hr{
-
+#premium-account-container > hr{
+    margin:0 auto;
+    width: 90%;
 }
+
+/***** Content Part *****/
+#premium-account-text{
+}
+
+#premium-account-content-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#premium-account-content-container h3{
+    font-size: 3em;
+}
+
+#premium-account-content-container p{
+    font-size:1.6em;
+    line-height:1.8em;
+}
+
+#premium-account-content-container > hr{
+    width: 70%;
+    height: 10px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+
+
+/*****  *****/
 
 /***** Testimonies Division Style *****/
 #testimony-flex-container {
