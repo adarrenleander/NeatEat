@@ -337,13 +337,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #index .featured-recipe-flex:hover .featured-recipe-1 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/featured/japanese-chicken-curry-rice-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/featured/japanese-chicken-curry-rice-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #index .featured-recipe-flex .featured-recipe-2 {
@@ -351,13 +350,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #index .featured-recipe-flex:hover .featured-recipe-2 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/featured/fettuccine-alfredo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/featured/fettuccine-alfredo-overlay.jpg);
+    transition: 0.4s;
 }
 
 #index .featured-recipe-flex .featured-recipe-3 {
@@ -365,13 +363,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #index .featured-recipe-flex:hover .featured-recipe-3 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/featured/salted-egg-chicken.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/featured/salted-egg-chicken-overlay.jpg);
+    transition: 0.4s;
 }
 
 #index .featured-recipe-flex .featured-recipe-4 {
@@ -379,13 +376,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #index .featured-recipe-flex:hover .featured-recipe-4 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/featured/caesar-salad-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/featured/caesar-salad-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #index .featured-recipe-flex a {
@@ -399,10 +395,12 @@ input, textarea, button {
     font-size: 20px;
     opacity: 0;
     padding-top: 40%;
+    transition: 0.4s;
 }
 
 #index .featured-recipe-flex:hover p {
     opacity: 1;
+    transition: 0.4s;
 }
 
 #index .browse-container {
@@ -621,13 +619,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-1 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/fettuccine-alfredo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/fettuccine-alfredo-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-2 {
@@ -635,13 +632,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-2 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/spaghetti-bolognese-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/spaghetti-bolognese-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-3 {
@@ -649,13 +645,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-3 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/spinach-ravioli-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/spinach-ravioli-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-4 {
@@ -663,13 +658,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-4 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/potato-gnocchi-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/potato-gnocchi-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-5 {
@@ -677,13 +671,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-5 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/beef-lasagna-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/beef-lasagna-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-6 {
@@ -691,13 +684,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-6 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/bruschetta-with-tomatoes-and-basil.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/bruschetta-with-tomatoes-and-basil-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-7 {
@@ -705,13 +697,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-7 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/spaghetti-aglio-e-olio-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/spaghetti-aglio-e-olio-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-8 {
@@ -719,13 +710,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-8 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/tiramisu-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/tiramisu-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-9 {
@@ -733,13 +723,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-9 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/panna-cotta-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/panna-cotta-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-10 {
@@ -747,13 +736,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-10 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/penne-carbonara-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/penne-carbonara-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-11 {
@@ -761,13 +749,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-11 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/chicken-and-pea-risotto-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/chicken-and-pea-risotto-square-overlay.jpg);
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex .recipe-flex-12 {
@@ -775,13 +762,12 @@ input, textarea, button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    transition: 0.4s;
 }
 
 #recipes-type .recipes-flex:hover .recipe-flex-12 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/cheese-and-asparagus-frittata-square.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    background-image: url(../images/cuisine/italian/cheese-and-asparagus-frittata-square-overlay.jpg);
+    transition: 0.4s;
 }
 /***** *****/
 
