@@ -878,15 +878,6 @@ input, textarea, button {
     padding: 40px 0;
 }
 
-/* #recipe-details .recipe-details-content h1 {
-    font-size: 35px;
-    margin: 0 0 25px 0;
-} */
-
-/* #recipe-details .recipe-details-content img {
-    height: 300px;
-} */
-
 #recipe-details .recipe-details-content h3 {
     margin: 0 0 25px 0;
     font-size: 25px;
@@ -898,6 +889,13 @@ input, textarea, button {
     margin: 0 0 5px 0;
     color: #f07b3f;
     font-size: 25px;
+}
+
+#recipe-details .recipe-details-content> hr{
+    width: 70%;
+    height: 10px;
+    border: 7px solid black;
+    border-radius: 10px;
 }
 
 #recipe-details .recipe-details-content ul {

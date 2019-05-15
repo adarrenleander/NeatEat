@@ -61,6 +61,8 @@
 #premium-account-content-container p{
     font-size:1.6em;
     line-height:1.8em;
+    border: 2px solid black;
+    margin-bottom: 60px;
 }
 
 #premium-account-content-container > hr{
@@ -69,7 +71,6 @@
     border: 7px solid black;
     border-radius: 10px;
 }
-
 
 /*****  *****/
 
