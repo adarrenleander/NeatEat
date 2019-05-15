@@ -545,7 +545,7 @@ input, textarea, button {
 }
 
 .ingredients-list-container li:hover {
-    background-color: #6d6e70;
+    background-color: #6c6f79;
     color: #ffffff;
 }
 
@@ -879,8 +879,8 @@ input, textarea, button {
 }
 
 #recipe-details .recipe-details-content h3 {
-    margin: 0 0 25px 0;
-    font-size: 25px;
+    margin: 10px 0 30px 0;
+    font-size: 35px;
     font-weight: normal;
     text-align: center;
 }
@@ -888,26 +888,31 @@ input, textarea, button {
 #recipe-details .recipe-details-content p {
     margin: 0 0 5px 0;
     color: #f07b3f;
-    font-size: 25px;
+    font-size: 30px;
 }
 
-#recipe-details .recipe-details-content> hr{
-    width: 70%;
-    height: 10px;
-    border: 7px solid black;
+#recipe-details .recipe-details-content p.bottom {
+    margin-top: 45px;
+}
+
+#recipe-details .recipe-details-content > hr {
+    width: 80%;
+    height: 4px;
+    border: 1px solid #000000;
     border-radius: 10px;
+    background-color: #000000;
 }
 
 #recipe-details .recipe-details-content ul {
-    margin: 0 0 30px 0;
+    margin: 0 0 55px 0;
     list-style-type: square;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 30px;
 }
 
 #recipe-details .recipe-details-content ol {
     margin: 0;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 30px;
 }
 
@@ -917,4 +922,158 @@ input, textarea, button {
 /***** *****/
 
 /****** PREMIUM MEMBERSHIP PAGE *****/
+#premium-account .premium-account-content-header-container{
+    text-align: center;
+    padding: 40px 0px;
+    background-color: #eff3f6;
+}
+
+#premium-account .premium-account-content-header {
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#premium-account .premium-account-content-header .premium-account-logo {
+    height: 20em;
+    float: left;
+}
+
+#premium-account .premium-account-content-header h3 {
+    font-size: 4em;
+    padding: 0;
+    margin: 120px 30px;
+    margin-bottom: 0px;
+    float: left;
+    display: inline-block;
+}
+
+#premium-account .premium-account-content-header h2 {
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 65px;
+    margin-bottom: 0px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+#premium-account .premium-account-container > hr {
+    margin:0 auto;
+    width: 90%;
+}
+
+/***** Content Part *****/
+#premium-account .premium-account-content-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#premium-account .premium-account-content-container h3 {
+    font-size: 3em;
+    margin: 75px 0 40px 0;
+    color: #f07b3f;
+}
+
+#premium-account .premium-account-content-container p {
+    font-size: 1.6em;
+    line-height: 1.8em;
+    margin: 0;
+}
+
+#premium-account .premium-account-content-container .why-text {
+    background-color: #ffffff;
+    border: 1px solid #6c6f79;
+    padding: 60px;
+    margin-bottom: 80px;
+    transition: 0.4s;
+    letter-spacing: 1px;
+}
+
+#premium-account .premium-account-content-container .why-text:hover {
+    background-color: #6c6f79;
+    color: #ffffff;
+}
+
+#premium-account .premium-account-content-container .benefits-text {
+    background-color: #ffffff;
+    border: 1px solid #6c6f79;
+    padding: 60px;
+    margin-bottom: 80px;
+    transition: 0.4s;
+    letter-spacing: 2px;
+}
+
+#premium-account .premium-account-content-container .benefits-text:hover {
+    background-color: #6c6f79;
+    color: #ffffff;
+}
+
+#premium-account .premium-account-content-container .benefits-text ul {
+    font-size: 22px;
+    list-style-position: inside;
+    list-style-type: square;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 30%;
+}
+
+#premium-account .premium-account-content-container > hr {
+    width: 70%;
+    height: 7px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+/*****  *****/
+
+/* **** Testimonies Division Style **** */
+#premium-account .testimony-flex-container {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+#premium-account .testimony-flex {
+    flex: 20%;
+    background-color: #ffffff;
+    padding: 30px 0;
+    transition: 0.4s;
+    margin: 0 15px 0 0;
+}
+
+#premium-account .testimony-flex:hover {
+    background-color: #6c6f79;
+}
+
+#premium-account .testimony-flex img {
+    border-radius: 50%;
+    height: 200px;
+    border: 4px solid #ffffff;
+}
+
+#premium-account .testimony-flex p {
+    color: #ffffff;
+}
+
+#premium-account .testimony-flex .name {
+    font-size: 25px;
+    line-height: 25px;
+    padding: 25px 15px 5px 15px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#premium-account .testimony-flex .quote {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 15px 0 15px;
+}
+
+#premium-account .testimony-flex .quote span {
+    font-size: 20px;
+}
+/*****  *****/
 /***** *****/
